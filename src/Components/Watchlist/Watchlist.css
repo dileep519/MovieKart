@@ -1,0 +1,15 @@
+.button-watch{
+    height: 80%;
+    margin: 7% 0% 0% 1260%;
+    border:1px;
+    color: white;
+    border:none;
+    outline: none;;
+    border-radius: 5px;
+    border:1px solid darkblue ;
+    background:#3b5998;
+}
+
+.button-watch:hover{
+    background: rgba(28, 15, 148, 0.473);
+}

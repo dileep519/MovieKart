@@ -1,0 +1,25 @@
+.Search-parent{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 3%;
+    height:4%;
+    /* background: #3b5998; */
+    justify-content: center;
+    align-content: center; 
+}
+.search-bar{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height:5vh;
+    width:80%;
+}
+
+.Search-but{
+    color:white;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    height:6vh;
+    background: #3b5998;
+}

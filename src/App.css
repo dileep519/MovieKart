@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+.App-parent{
+    display: flex;
+    height:100vw;
+    width:100vw;
+    max-width: 100%;
+    flex-direction: column;
+    /* background: lightcoral; */
+}
+.logo{
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 1.5%;
+    margin-top: 1%;
+    width: 50vw;
+    /* background: gray; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.movie-but{
+    font-weight: 1000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    outline: none;
+    border:none;
+    background: #3b5998;
+    border-radius: 5px;
+    /* border:1px solid darkblue ; */
+}
+.movie-but:hover{
+    background: rgba(28, 15, 148, 0.473);
+}
+.App-child1{
+    display: flex;
+    flex-direction: row;
+    background: #3b5998;
+    height: 4%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.print{
+    display:flex;
+    margin-left: 4vw;
+    width:90vw;
+    justify-content: center;
+    align-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
